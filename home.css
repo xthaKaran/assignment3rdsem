@@ -1,0 +1,167 @@
+body{
+
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.wrapper{
+  margin:0 auto;
+}
+.header{
+  width:100%;
+  height:92px;
+  background:rgba(0, 0, 0, 0.5);
+  position:fixed;
+  top:0px;
+}
+.header-image{
+  height: 200px;
+  width:200px;
+  float: left;
+  margin-left: 20px ;
+}
+.brand-image{
+  width:170px;
+  height: 40px;
+  padding: 10px 0px;
+  }
+  .search{
+    float: right;
+    margin-right: 150px;
+  }
+  .active{
+      font-size: 22px;
+      background: rgba(0,0,0,0.5);
+
+  }
+  .search a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-right: 2px solid black;
+
+  }
+  .search a:hover{
+    color:white;
+    font-size: 20px;
+
+
+  }
+  .search_text_field{
+    height: 15px;
+    width: 150px;
+    color: weight;
+
+  }
+  .search_text_field:hover{
+
+    height: 20px;
+    width: 180px;
+    color: weight;
+  }
+
+.search_button{
+  height: 25px;
+  width: 60px;
+
+}
+.search_button:hover{
+  height: 28px;
+  width: 65px;
+  color: black;
+}
+.menu{
+  float: left;
+  height: 60px;
+  width:60%;
+
+}
+
+.menu ul li{
+  list-style: none;
+  display: inline;
+  font-size: 18px;
+  color: white;
+  padding: 20px;
+  line-height: 1.5;
+}
+.menu ul li:hover{
+  background: rgba(0,0,0,0.5);
+  font-size: 22px;
+
+}
+.menu ul {
+  padding: 0px;
+}
+.menu ul a{
+  text-decoration: none;
+}
+
+/*  index.php*/
+.wrapper-content{
+
+  padding-top: 8%;
+  padding-bottom: 20%;
+  background: url(image/dog.jpg) 100% fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.content-image img{
+  width: 100%;
+  height: auto;
+
+
+}
+
+.content-image h1{
+  position: relative;
+}
+
+.web-description{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+}
+.web-description h1{
+color: #22A7F0;
+text-align: center;
+}
+.web-description p{
+width: 40%;
+height: auto;
+padding-left: 60px;
+
+}
+
+
+/*  profile css*/
+
+.table{
+  width: 50%;
+  height: auto;
+  margin-left: 30%;
+  text-align: center;
+  background: white;
+
+}
+
+table{
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  width:100%;
+}
+
+th,td{
+  text-align:left;
+  padding: 8px;
+}
+
+tr:nth-child(even){
+  background-color: #D2D7D3;
+}
+.table a{
+  text-decoration:none;
+}
